@@ -1,5 +1,5 @@
 window.onload = () => {
-  const position = [47.0949187, 37.5429472];
+  const position = [40.6737287, -73.9184335];
   var mymap = L.map("map").setView(position, 13);
 
   var token =
@@ -13,10 +13,20 @@ window.onload = () => {
       attribution:
         'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
-      id: "mapbox/streets-v11",
+      id: "mapbox/light-v10",
       tileSize: 512,
       zoomOffset: -1,
-      accessToken: "your.mapbox.access.token",
+      accessToken:
+        "pk.eyJ1IjoiZWNzcGV0cmEiLCJhIjoiY2tuajUxdGdhM2ZlczJubXE4N3VsbXAzMiJ9.63uR5z23i3OFgyKpzxEJmA",
     }
   ).addTo(mymap);
+
+  var circle = L.circle(position, {
+    color: "red",
+    fillColor: "#f03",
+    fillOpacity: 0.5,
+    radius: 500,
+  }).addTo(mymap);
+
+  mymap.scrollWheelZoom.disable();
 };
