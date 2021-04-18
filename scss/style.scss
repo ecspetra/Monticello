@@ -693,7 +693,7 @@ input {
 #map {
   height: 800px;
   width: 100%;
-  // z-index: 1;
+  z-index: 1;
 }
 
 @media (max-width: 1024px) {
@@ -932,10 +932,10 @@ input {
     }
   }
 
-  // #map {
-  //   height: 400px;
-  //   width: 100%;
-  // }
+  #map {
+    height: 400px;
+    width: 100%;
+  }
 
   .get-in-touch-container {
     position: relative;
@@ -1281,10 +1281,10 @@ input {
     }
   }
 
-  // #map {
-  //   height: 400px;
-  //   width: 100%;
-  // }
+  #map {
+    height: 400px;
+    width: 100%;
+  }
 
   .get-in-touch-container {
     position: relative;

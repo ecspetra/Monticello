@@ -621,6 +621,7 @@ input {
 #map {
   height: 800px;
   width: 100%;
+  z-index: 1;
 }
 
 @media (max-width: 1024px) {
@@ -821,6 +822,11 @@ input {
   }
   .latest-news-container .latest-news .news-slider .arrow-next {
     display: none !important;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
   }
 
   .get-in-touch-container {
@@ -1094,6 +1100,11 @@ input {
   }
   .latest-news-container .latest-news .news-slider .arrow-next {
     display: none !important;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
   }
 
   .get-in-touch-container {
