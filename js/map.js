@@ -23,8 +23,8 @@ window.onload = () => {
     ).addTo(mymap);
 
     var circle = L.circle(position, {
-      color: "red",
-      fillColor: "#f03",
+      color: "#7e5aff",
+      fillColor: "#7e5aff",
       fillOpacity: 0.5,
       radius: 500,
     }).addTo(mymap);
