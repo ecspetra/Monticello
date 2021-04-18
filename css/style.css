@@ -823,11 +823,6 @@ input {
     display: none !important;
   }
 
-  #map {
-    height: 400px;
-    width: 100%;
-  }
-
   .get-in-touch-container {
     position: relative;
     padding: 0px;
@@ -1099,11 +1094,6 @@ input {
   }
   .latest-news-container .latest-news .news-slider .arrow-next {
     display: none !important;
-  }
-
-  #map {
-    height: 400px;
-    width: 100%;
   }
 
   .get-in-touch-container {
