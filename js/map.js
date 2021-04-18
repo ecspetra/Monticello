@@ -25,7 +25,7 @@ window.onload = () => {
     var circle = L.circle(position, {
       color: "#7e5aff",
       fillColor: "#7e5aff",
-      fillOpacity: 0.5,
+      fillOpacity: 0.2,
       radius: 500,
     }).addTo(mymap);
 
