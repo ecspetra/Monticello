@@ -297,7 +297,7 @@ input {
 }
 .trade-center-container .container__content .section-trade-center {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -325,6 +325,7 @@ input {
 .trade-center-container .container__content .section-trade-center .section-trade-center__text h1 {
   text-align: left;
   margin: 20px 0px 0px 0px;
+  line-height: 40px;
 }
 .trade-center-container .container__content .section-trade-center .section-trade-center__text .paragraph {
   font-size: 18px;
@@ -345,7 +346,7 @@ input {
 }
 .commerce-centre-container .container__content .section-commerce-centre {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -373,6 +374,7 @@ input {
 .commerce-centre-container .container__content .section-commerce-centre .section-commerce-centre__text h1 {
   text-align: left;
   margin: 20px 0px 0px 0px;
+  line-height: 40px;
 }
 .commerce-centre-container .container__content .section-commerce-centre .section-commerce-centre__text .paragraph {
   font-size: 18px;
@@ -518,7 +520,7 @@ input {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   margin: 100px 0px 60px 0px;
