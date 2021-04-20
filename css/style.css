@@ -770,6 +770,7 @@ input {
   }
   .trade-center-container .container__content .section-trade-center {
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
   .trade-center-container .container__content .section-trade-center .section-trade-center__img {
@@ -808,6 +809,7 @@ input {
   }
   .commerce-centre-container .container__content .section-commerce-centre {
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
   .commerce-centre-container .container__content .section-commerce-centre .section-commerce-centre__img {
@@ -1066,6 +1068,7 @@ input {
   }
   .trade-center-container .container__content .section-trade-center {
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
   .trade-center-container .container__content .section-trade-center .section-trade-center__img {
@@ -1104,6 +1107,7 @@ input {
   }
   .commerce-centre-container .container__content .section-commerce-centre {
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
   .commerce-centre-container .container__content .section-commerce-centre .section-commerce-centre__img {
